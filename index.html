@@ -3,18 +3,33 @@
   <head>
     <meta charset="utf-8">
        <title>Digital Portfolio </title>
-       <link rel="stylesheet" href="style.css">
+       <link type="text/css" rel="stylesheet" href="style1.css">
+       <link type="text/css" rel="stylesheet" href="dropdown.css">
+      
     </head>
     
   
   
   <body>
-     <nav>
-       <a href="ISP.html"  style="color:white;">ISP</a>
+    <nav>
+
        <a href="projects.html"  style="color:white;">About Me</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/Fingerprints.html"  style="color:white;">Fingerprints</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/AI%20Sentience.html"  style="color:white;">AI Sentience</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Projects/Optimal%20Sort.html"> Optimal Sort </a>
+       <ul>
+       <li class="dropdown">
+	 <p class="dropbtn">Essays</p>
+	 <div class="dropdown-content">
+	   <a style="color: white;" href=./CS-II/Essays/Fingerprints.html>Fingerprints</a>
+	   <a style="color: white;" href=./CS-II/Essays/AI%20Sentience.html>AI Sentience</a>
+       </div> </li>
+       </ul>
+       <ul>
+       <li class="dropdown">
+	 <p class="dropbtn">Projects</p>
+	 <div class="dropdown-content">
+	   <a href=ISP.html style="color: white;"> ISP </a>
+	   <a style="color: white;" href=./CS-II/Projects/Optimal%20Sort.html>Optimal Sorting </a>
+       </div> </li>
+       </ul>
     </nav>
     <h1> Karthik Peravali's Digital Portfolio </h1>
     <h2> Hey! I'm Karthik Peravali </h2>
