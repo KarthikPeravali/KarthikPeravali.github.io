@@ -1,0 +1,22 @@
+.dropdown {
+     position: relative;
+     display: inline-block;
+ }
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: black;
+     min-width: 50px;
+ }
+ .dropdown-content a {
+	     padding: 12px 16px;
+    display: block;
+     white-space: nowrap;
+	 }
+	 
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+ p.margin {
+  margin-right: 900px;
+}
