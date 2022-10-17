@@ -1,4 +1,4 @@
-main.essayContainer  {
+]83;40800;0cmain.essayContainer  {
     font-size: 20px;
     text-indent: 40px;
     /*margin-top: 10px;
@@ -22,13 +22,14 @@ h1 {
     font-size: 90pt;
     color: white;
 }
-li {
-    color: white;
-}
+
 h2 {
     font-family: Sans-Serif;
     font-size: 60pt;
     color: white;
+}
+h2.center {
+    text-align: center;
 }
 body {
     background: #2d2d2d;
@@ -41,18 +42,22 @@ h3 {
 }
 p {
     color: white;
-    font-size: 16pt;
+    font-size: 20pt;
     
     
 	
 }
 div.a {
     text-indent: 50px;
-}
+    text-align: center;
+    font-size: 40px;
+    color: white;
+ }
 p.center {
     text-align: center;
     
 }
+
 div {
     font-size: 20px !important;
     text-align: left;
@@ -72,16 +77,16 @@ p.tab {
     margin-right: 100px;*/
 }
 .mainBody p {
- /*   margin: 0px 300px 0px 100px; */
+    /*   margin: 0px 300px 0px 100px; */
 }
-    
-    
+
+
 cite {
     font-size: 16pt;
     color: white;
 }
 
 cite.hangingindent {
-    	padding-left: 22px ;
-	text-indent: -22px ;
-    }
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
