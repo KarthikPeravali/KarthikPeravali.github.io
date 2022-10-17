@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-  
+    <meta charset="utf-8">
+      
       <title>Digital Portfolio </title>
-      <link rel="stylesheet" href="style1.css">
-      </head>
+      <link type="text/css" rel="stylesheet" href="style1.css">
+      <link type="text/css" rel="stylesheet" href="dropdown.css">
+  </head>
   
   
   <body>
     <nav>
       <a class="active" href="index.html" style="color:white;">Home</a>
       <a href="projects.html"  style="color:white;">About Me</a>
-      <a href="CS-II/Essays/Fingerprints.html"  style="color:white;">Fingerprints</a>
-      <a href="CS-II/Essays/AI%20Sentience.html"  style="color:white;">AI Sentience</a>
-      <a href="CS-II/Projects/Optimal%20Sort.html"  style="color:white;">Optimal Sort</a>
+      <ul>
+	<li class="dropdown">
+	  <p class="dropbtn">Essays</p>
+	  <div class="dropdown-content">
+	    <a style="color: white;" href=./CS-II/Essays/Fingerprints.html>Fingerprints</a>
+	    <a style="color: white;" href=./CS-II/Essays/AI%20Sentience.html>AI Sentience</a>
+	</div> </li>
+      </ul>
+      <ul>
+	<li class="dropdown">
+	  <p class="dropbtn">Projects</p>
+	  <div class="dropdown-content">
+	    <a style="color: white;" href=ISP.html> ISP </a>
+	    <a style="color: white;" href=./CS-II/Projects/Optimal%20Sort.html>Optimal Sorting</a>
+	    <a style="color: white;" href=./CS-II/Projects/Business%20Plan/index.html>Business Plan</a>
+	</div> </li>
+      </ul>
     </nav> 
-   
-    <h3>Previous Projects</h3>
-   
-    <h2> Computer Science I ISP (BURGER RUN!)</h2>
-    <h2>Worked with Jake G. and Srisaivikas M.</h2>
-	<h2> Goal:</h2> <p>To recreate Snake but instead but to add an enemy that tracks the sprite Using IGIS and Swift</p>
-	<img src="picture.png.png" alt="wrong" width="900" height="500">
-	<h2> The Concept: </h2>
-	<p> We wanted to use basics compentents of the popular game, Snake, and add some extra effects. Such as the added enemy that chases the sprite, and how the sprite does not grow bigger as it eats more hamburgers (apples!) </p>
-	<h2> Our Motivation </h2>
-	<p> We saw coding for snake as a hard task, but we wanted a challenge, so we implemented components of snake, while adding extra aspects, such as the enemy to induce challenge in our project </p>
-	<h2> Our Code </h2>
-	<p> Pictured Below is the segmented code we used to randomly generate our hamburgers. We set an absolute position for the first hamburger, then said that if sprite is within the containment rules we set of said hamburger, then new hamburger renders in a randomly generated point. </p>
-	<img src="code.png" alt="wrong">
-	<h2> Struggles </h2>
-	<p> We struggled trying to program the enemy to copy movements of our sprite, as it has to register the sprites movements from the keys, and then copy those movements. That took the longest time, and possibly the was the hardest part of this project. </p>
-	<h2> Conclusion </h2>
-	<p> Overall, the project was a success, the presentation was presented beautifully. We did run into trouble towards the end when our pictures were not rendering, but that was only hiccup along the way </p>
-	<h2> Our Github BurgerRun Code </h2>
-	<a href="https://github.com/KarthikPeravali/BurgerRun"> <p> https://github.com/KarthikPeravali/BurgerRun </p> </a>	
-
-  </body>
-  </html>
     
+    
+   
+<h2 class="center"> Computer Science I ISP (BURGER RUN!)</h2>
+<p class="center" style="font-size: 40px;">Worked with Jake G. and Srisaivikas M.</p>
+<h2> Goal:</h2> <p class="margin" style="font-size: 30px;">To recreate Snake but instead but to add an enemy that tracks the sprite Using IGIS and Swift</p>
+<img src="picture.png.png" alt="wrong" width="900" height="500">
+<h2> The Concept: </h2>
+<p class="margin" style="font-size: 30px"> We wanted to use basics compentents of the popular game, Snake, and add some extra effects. Such as the added enemy that chases the sprite, and how the sprite does not grow bigger as it eats more hamburgers (apples!) </p>
+<h2> Our Motivation </h2>
+<p class="margin" style="font-size: 30px"> We saw coding for snake as a hard task, but we wanted a challenge, so we implemented components of snake, while adding extra aspects, such as the enemy to induce challenge in our project </p>
+<h2> Our Code </h2>
+<p class="margin" style="font-size: 30px"> Pictured Below is the segmented code we used to randomly generate our hamburgers. We set an absolute position for the first hamburger, then said that if sprite is within the containment rules we set of said hamburger, then new hamburger renders in a randomly generated point. </p>
+<img src="code.png" alt="wrong">
+<h2> Struggles </h2>
+<p class="margin" style="font-size: 30px" > We struggled trying to program the enemy to copy movements of our sprite, as it has to register the sprites movements from the keys, and then copy those movements. That took the longest time, and possibly the was the hardest part of this project. </p>
+<h2> Conclusion </h2>
+<p class="margin" style="font-size: 30px"> Overall, the project was a success, the presentation was presented beautifully. We did run into trouble towards the end when our pictures were not rendering, but that was only hiccup along the way </p>
+<h2> Our Github BurgerRun Code </h2>
+<a href="https://github.com/KarthikPeravali/BurgerRun"> <p> https://github.com/KarthikPeravali/BurgerRun </p> </a>	
+
+</body>
+</html>
+
   	
     

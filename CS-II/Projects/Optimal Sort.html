@@ -16,20 +16,50 @@
    
     </style>
   <link rel="stylesheet" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/style1.css">
+  <link rel="stylesheet" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/dropdown.css">
   </head>
   <body>
-     <nav>
-       <a class="active" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/index.html" style="color:white;">Home</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/ISP.html"  style="color:white;">ISP</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/projects.html"  style="color:white;">About Me</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/Fingerprints.html"  style="color:white;">Fingerprints</a>
-       <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/AI%20Sentience.html"  style="color:white;">AI Sentience</a>
-     </nav>
-     <h2> Flowchart </h2>
-     <img src="Sorting_Formatted.jpg" alt="Wrong" width="900" height="1400" >
-     <h5> Link to Github Repository </h5>
-     <a style="font-size: 20pt;" href="https://github.com/neeraj-gogate/Optimal-Sorting"> GitHub Repository </a>
-     <h5> Link to Google Sheets </h5>
-     <a style="font-size: 20pt;" href="https://docs.google.com/spreadsheets/d/1unyC68g51rsel25M3M_R3hD50W83XrZAkFtVoDcQIvI/edit#gid=458637415"> Spreadsheet </a>
+    <nav>
+            <a class="active" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/index.html" style="color:white;">Home</a>
+      <a href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/projects.html"  style="color:white;">About Me</a>
+      
+      <ul>
+	<li class="dropdown">
+	  <p class="dropbtn">Essays</p>
+	  <div class="dropdown-content">
+	    <a style="color: white;" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/Fingerprints.html">Fingerprints</a>
+	    <a style="color: white;" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Essays/AI%20Sentience.html">AI Sentience</a>
+	</div> </li>
+      </ul>
+      <ul>
+	<li class="dropdown">
+	  <p class="dropbtn">Projects</p>
+	  <div class="dropdown-content">
+	    <a style="color: white;" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html">Business Plan</a>
+	    <a style="color: white;" href="https://codermerlin.com/users/karthik-peravali/Digital%20Portfolio/ISP.html">ISP</a>
+	</div> </li>
+      </ul>
+    </nav>
+    <h2> Flowchart </h2>
+    <img src="Sorting_Formatted.jpg" alt="Wrong" width="900" height="1400" >
+    <h5> Link to Github Repository </h5>
+    <a style="font-size: 20pt;" href="https://github.com/neeraj-gogate/Optimal-Sorting"> GitHub Repository </a>
+    <h5> Link to Google Sheets </h5>
+    <a style="font-size: 20pt;" href="https://docs.google.com/spreadsheets/d/1unyC68g51rsel25M3M_R3hD50W83XrZAkFtVoDcQIvI/edit#gid=458637415"> Spreadsheet </a>
+    
+    <h2 class="center">Sorting Analysis</h2>
+    <div class="a">
+      <a href="https://docs.google.com/spreadsheets/d/1RPD3afucuZ3tJ3HwjcJ0pglEQyGq30XXJX2WqvsW7jY/edit#gid=182397953" style="color: white; font-size:40px; text-align: center;"><b> Data in Spreadsheet</b></a><br>
+      <br><a href="https://github.com/KarthikPeravali/InsertionSort" style="color: white; font-size:35px; text-align: center;"><b>Inersetion Sort</b></a><br>
+      <br><a href="https://github.com/KarthikPeravali/SelectionSort" style="color: white; font-size:35px; text-align: center;"><b>Selection Sort</b></a><br>
+      <br><a href="https://github.com/KarthikPeravali/BubbleSort" style="color: white; font-size:35px; text-align: center;"><b>Bubble Sort</b></a>
+    </div>
+    <div class="mainBody">
+      <p class="tab"> Analyzing all the graphs, the time complexity has similarity for all 3 types of sorts, with a couple exceptions. Each sort follows the O(n^2) pattern, basically stating as the number of words increase, the time dialation exponentially increases as well with direct proportionality to the number of words. However, not everything about the 3 sorting algorithms are the same. For example, Insertion Sort and Bubble share a similar graph shape with time really increasing at the 100000 word count range. But Bubble sort is a tad bit slower than Inserstion Sort when it came to sorting randomly assorted lists with higher word count because the 10000 word count range shows Bubble sort taking more time than Insertion Sort. Different from both Bubble and Insertion Sort, Selection Sort's time complexity is more different. It is much slower than Bubble and Insertion when it comes to higher word counts in a given list. Looking at the Selection Sort graph both the 10000 and 100000 word count ranges had taken a lot of time to sort, going into minutes comapred to Insertion and Bubble that could handle the 10000 range of words in seconds. Unlike Insertion and Bubble sort that only took time for the randomly-assorted lists (that too higher word count ones), Selection Sort took a lot of time when it came to any list with high word count whether it was ordered, revesred, or random. When it came to ranges with less words, the 3 sorting algoritms took similar amounts of time, and taking logarithm of the all 3 graphs, shows how up to 1000 words, do all 3 algorithms have similar times in the milliseconds. a</p>
+    </div>
   </body>
+  </html>
+
+
+  
   
